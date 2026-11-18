@@ -1,0 +1,24 @@
+name: checks
+
+on:
+  push:
+    branches:
+  pull_request:
+    branches:
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          cache: "npm"
+
+      - run: npm ci
+      - run: npm run prettier:check
+      - run: npm run typecheck
+      - run: npm test
