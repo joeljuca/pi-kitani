@@ -1,5 +1,6 @@
 # pi-kitani
 
+[![GitHub Actions](https://github.com/joeljuca/pi-kitani/actions/workflows/checks.yml/badge.svg)](https://github.com/joeljuca/pi-kitani/actions/workflows/checks.yml)
 [![npm version](https://img.shields.io/npm/v/pi-kitani.svg?color=red&logo=npm)](https://www.npmjs.com/package/pi-kitani)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?logo=apache)](LICENSE)
 [![GitHub](https://img.shields.io/badge/joeljuca/pi--kitani-white?logo=github&logoColor=black)](https://github.com/joeljuca/pi-kitani)
